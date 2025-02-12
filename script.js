@@ -1,48 +1,19 @@
-/* Nim Trainer by [your name]
- * based on this flowchart:
- * https://lucid.app/lucidchart/2018baaf-4c26-4a76-a0d5-93c97f444425/view
- */
+/* Variable and Alert Katas */
+// These katas do not involve functions and are very basic. 
 
-/* Global Variables */
+/* COLOR KATAS */
 
+/* Var Alert */
+// make a string variable for a color, set it equal to your favorite
+var color = "green";
+// alert the message" "My favorite color is " plus the color
+alert("My favourite color is: " + color);
 
-/** 
- * main  
- * Handles new Nim games with gametype choice simple or trainer and a play again option. 
- * @param none 
- * @return none
- */
-/* Main */
-function main(){
+/* Var Alert Prompt */
+// make a string variable for color, prompt the user for their favorite
+// alert color " is a nice color!"
 
-}
-
-/** 
- * playNim 
- * plays a game with user first and computer second. Winner declared in an alert box. 
- * @param none 
- * @return none
- */
-function playNim(){
-
-}
-
-/** 
- * userTurn  
- * User enters a turn. Validation against cheating handled by recursion.
- * @param none 
- * @return none
- */
-function userTurn(){
-
-}
-
-/** 
- * cpuTurn 
- * Generate computer's turn without losing on purpose.  Different turns if trainer or simple.  
- * @param none 
- * @return none
- */
-function cpuTurn(){
-
-}
+/* Var Alert Prompt Conditional */
+// make a variable for color, prompt the user for their favorite
+// if user enters "black" alert "Black is not really a color." 
+// otherwise alert color " is a nice color!"
